@@ -2838,6 +2838,11 @@ class remotecontrol_handle
                 'firstname' => $aParticipantData['firstname'],
                 'lastname' => $aParticipantData['lastname'],
                 'email' => $aParticipantData['email'],
+                'participant_id' => $aParticipantData['participant_id'],
+                'language' => $aParticipantData['language'],
+                'blacklisted' => $aParticipantData['blacklisted'],
+                'validfrom' => $aParticipantData['validfrom'],
+                'validuntil' => $aParticipantData['validuntil'],
                 'owner_uid' => Yii::app()->session['loginID'], // ToDo is this working?
             );
 
